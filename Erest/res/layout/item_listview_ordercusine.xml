@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:background="#ffffff" >
+    <!-- 商品图片 -->  
+    <ImageView 
+        android:id="@+id/imgOrderItem"    
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"    
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/imgdesc"
+        android:background="@drawable/ic_launcher"/>  
+    <LinearLayout android:orientation="vertical"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content">    
+	    <!-- 商品信息 -->  
+	    <LinearLayout android:orientation="horizontal"  
+	        android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content">  
+	  
+	        <TextView android:id="@+id/txtItemName"    
+	            android:layout_width="wrap_content"  
+	            android:layout_height="wrap_content"    
+	            android:textColor="#000000"  
+	            android:textSize="13dp" 
+	            android:text="hhhh"/>  
+	        <TextView android:id="@+id/txtItemPrice"    
+	            android:layout_width="wrap_content"  
+	            android:layout_height="wrap_content"    
+	             android:textColor="#000000"
+	            android:textSize="22dp"
+	            android:text="hfhiehf" />  
+	    </LinearLayout>  
+       <LinearLayout 
+        android:orientation="horizontal"  
+        android:layout_width="wrap_content"    
+        android:layout_height="wrap_content">
+           <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="15dp"
+              android:contentDescription="@string/imgdesc"
+              android:id="@+id/imbAddItem"/>
+           <TextView android:id="@+id/txtItemNumber"    
+	            android:layout_width="wrap_content"  
+	            android:layout_height="wrap_content"    
+	            android:textColor="#FFFFFFFF"  
+	            android:textSize="20dp"
+	            android:text="hfhiehf" />  
+           <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="15dp"
+              android:contentDescription="@string/imgdesc"
+              android:id="@+id/imbSubItem"
+              android:layout_marginRight="10dp"/>
+           <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="15dp"
+              android:contentDescription="@string/imgdesc"
+              android:id="@+id/imbDelItem"
+              android:layout_marginRight="15dp"/>
+       </LinearLayout>
+    </LinearLayout>  
+
+</LinearLayout>
