@@ -5,5 +5,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="imgdesc">table with no</string>
-
+    <string name="title_activity_menu_order">MenuOrderActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+	<!-- <string name="url">http://10.130.215.115:8080/Erest/</string> -->
+	<string name="url">http://47.93.187.232:8080/Erest/</string>
 </resources>
